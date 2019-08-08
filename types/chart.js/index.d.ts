@@ -577,14 +577,14 @@ declare namespace Chart {
         time?: TimeScale;
         offset?: boolean;
         beforeUpdate?(scale?: any): void;
-        beforeSetDimension?(scale?: any): void;
+        beforeSetDimensions?(scale?: any): void;
         beforeDataLimits?(scale?: any): void;
         beforeBuildTicks?(scale?: any): void;
         beforeTickToLabelConversion?(scale?: any): void;
         beforeCalculateTickRotation?(scale?: any): void;
         beforeFit?(scale?: any): void;
         afterUpdate?(scale?: any): void;
-        afterSetDimension?(scale?: any): void;
+        afterSetDimensions?(scale?: any): void;
         afterDataLimits?(scale?: any): void;
         afterBuildTicks?(scale?: any): void;
         afterTickToLabelConversion?(scale?: any): void;
